@@ -6,9 +6,8 @@ import { Menu, X } from 'lucide-react'
 import styles from './Navbar.module.css'
 import IconWithText from './IconWithText'
 
-export default function Component() { 
+export default function Component() {
   const [isOpen, setIsOpen] = useState(false)
-  const [overflow, setOverflow] = useState()
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)
@@ -30,16 +29,13 @@ export default function Component() {
 
   useEffect(() => {
     if (isOpen) {
-      //document.body.style.overflow = 'hidden'
-      setOverflow('hidden')
+      document.body.style.overflow = 'hidden'
     } else {
-      //document.body.style.overflow = 'unset'
-      setOverflow('unset')
+      document.body.style.overflow = 'unset'
     }
 
     return () => {
-      //document.body.style.overflow = 'unset'
-      setOverflow('unset')
+      document.body.style.overflow = 'unset'
     }
   }, [isOpen])
 
