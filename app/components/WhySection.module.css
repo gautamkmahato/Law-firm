@@ -1,0 +1,83 @@
+.section {
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  
+  .title {
+    color: rgb(44, 44, 44);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .content {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .images {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .image {
+    border-radius: 8px;
+  }
+  
+  .text {
+    color: rgb(52, 52, 52);
+  }
+  
+  .date {
+    color: #e74c3c;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .paragraph {
+    margin-bottom: 1.5rem;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    border: 2px solid rgb(19, 19, 19);
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: rgb(58, 41, 0);
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+  
+    .images {
+      flex-direction: column;
+    }
+  }

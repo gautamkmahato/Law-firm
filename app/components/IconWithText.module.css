@@ -1,0 +1,18 @@
+/* components/IconWithText.module.css */
+.iconText {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 600;
+    gap: 1px; /* Space between icon and text */
+  }
+  
+  .icon {
+    display: inline-block;
+  }
+  
+  .text {
+    font-size: 18px;
+    color: #ffffff; /* Adjust text color as needed */
+  }
+  

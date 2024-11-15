@@ -1,0 +1,128 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(rgba(32, 28, 16, 0.8), rgba(62, 58, 29, 0.8)),
+      url('../assets/v23.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ffe8ba;
+}
+
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.button {
+  padding: 0.8rem 1.8rem;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  margin-left: 30px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #2b3548;
+}
+
+@media (max-width: 768px) {
+  .menuButton {
+    display: block;
+    z-index: 1001;
+    color:#fff5e7
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    right: -80%;
+    width: 70%;
+    height: 100vh;
+    background-color: #d88a24;
+    box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    color: black;
+  }
+  .navLinksList{
+    padding: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgb(255, 0, 0);
+  }
+  .navLinksListMobile{
+    margin-top: 100px;
+  }
+
+  .navLinks.open {
+    display: flex;
+    right: 0;
+  }
+
+  .button{
+    border: none;
+    padding: 0.8rem 2.5rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    margin-left: 30px;
+  }
+  .mobileButton {
+    margin-top: 30px;
+  }
+
+  
+}
