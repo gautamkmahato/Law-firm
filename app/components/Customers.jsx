@@ -14,7 +14,7 @@ export default function Customers() {
       <p className={styles.text}> 
       We proudly serve a diverse clientele, from individuals to businesses 
       <br />
-      providing trusted legal expertise tailored to each client's unique needs.
+      providing trusted legal expertise tailored to each clients unique needs.
       <br />
       <span style={{fontWeight: "600"}}>--- Meet Our Customers ---</span>
       </p>
