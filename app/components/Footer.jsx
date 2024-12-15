@@ -13,11 +13,10 @@ export default function Footer() {
           <div>
             <div className={styles.logo}>
               <Globe className="h-6 w-6" />
-              DIGITAL AGENCY
+              SAHAJ NYAY
             </div>
             <p className={styles.description}>
-            At CskLegal,
-            We’re here to protect your rights, secure your interests, 
+            At Sahaj Nyay, We are here to protect your rights, secure your interests, 
             and achieve the results you deserve.
             </p>
             <div className={styles.socialLinks}>
@@ -68,22 +67,22 @@ export default function Footer() {
             <h3 className={styles.heading}>Business</h3>
             <ul className={styles.list}>
               <li className={styles.listItem}>
-                <Link href="/" className={styles.link}>
+                <Link href="/service" className={styles.link}>
                     Services
                 </Link>
               </li>
               <li className={styles.listItem}>
-                <Link href="/" className={styles.link}>
+                <Link href="/team" className={styles.link}>
                     Our Team
                 </Link>
               </li>
               <li className={styles.listItem}>
-                <Link href="/" className={styles.link}>
+                <Link href="/testimonial" className={styles.link}>
                     Testimonials
                 </Link>
               </li>
               <li className={styles.listItem}>
-                <Link href="/" className={styles.link}>
+                <Link href="/customer" className={styles.link}>
                   Customers
                 </Link>
               </li>
@@ -117,7 +116,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.copyright}>
-          Copyright © 2024 CskLegal
+          Copyright © 2024 SAHAJ NYAY
         </div>
       </div>
     </footer>

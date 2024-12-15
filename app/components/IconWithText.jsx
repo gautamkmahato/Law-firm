@@ -1,13 +1,16 @@
 // components/IconWithText.js
 import Image from 'next/image';
 import styles from './IconWithText.module.css';
-import logo from '../public/assets/logo.png'
+import logo from '../public/assets/mylogo-2.png'
+import Link from 'next/link';
 
 export default function IconWithText({ src, alt, text }) {
   return (
-    <div className={styles.iconText}>
-      {/* <Image src={logo} alt="icon" width={24} height={24} className={styles.icon} /> */}
-      <span className={styles.text}>CskLegal</span>
-    </div>
+    <Link href="/">
+      <div className={styles.iconText}>
+        <Image src={logo} alt="icon" width={24} height={24} className={styles.icon} />
+        <span className={styles.text}>SAHAJNYAY</span>
+      </div>
+    </Link>
   );
-}
+} 

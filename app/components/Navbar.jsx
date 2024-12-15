@@ -62,13 +62,13 @@ export default function Component() {
               Articles
             </Link>
           </li>
-          <li className={styles.navLinksList}>
+          {/* <li className={styles.navLinksList}>
             <Link href="/" className={styles.navLink} onClick={toggleMenu}>
               Services
             </Link>
-          </li>
+          </li> */}
           <li className={styles.mobileButton}>
-          <Link href="/about" className={styles.button}>
+          <Link href="/contact" className={styles.button}>
             Contact Us
           </Link>
           </li>

@@ -41,9 +41,9 @@ export default function ServiceSection() {
         <div className={styles.header}>
           <h2 className={styles.title}>How can we help you?</h2>
           <p className={styles.subtitle}>
-          At CskLegal, we are dedicated to offering comprehensive legal support across a variety of practice areas. Our experienced team is here to provide guidance, advocacy, and solutions tailored to your unique needs. Explore our key service areas below to see how we can help you.
+          At Sahaj Nyay, we are dedicated to offering comprehensive legal support across a variety of practice areas. Our experienced team is here to provide guidance, advocacy, and solutions tailored to your unique needs. Explore our key service areas below to see how we can help you.
           </p>
-        </div>
+        </div> 
         <div className={styles.grid}>
           {services.map((service, index) => {
             const Icon = service.icon

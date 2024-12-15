@@ -8,7 +8,7 @@ export default function Blog(){
             <section className={styles.aboutUs}>
                 <div className={styles.overlay}>
                     <h1 className={styles.title}>Articles</h1>
-                    <h2 className={styles.subtitle}>Welcome to The Articles of CskLegal Agency</h2>
+                    <h2 className={styles.subtitle}>Welcome to The Articles of Sahaj Nyay Agency</h2>
                 </div>
             </section>
             <BlogPostGrid />

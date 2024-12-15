@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   background-image: linear-gradient(rgba(32, 28, 16, 0.8), rgba(62, 58, 29, 0.8)),
-      url('../public/assets/v23-new.jpg');
+      url('../public/assets/v23.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,6 +106,10 @@
   .navLinks.open {
     display: flex;
     right: 0;
+  }
+
+  .container {
+    padding: 0.7rem;
   }
 
   .button{

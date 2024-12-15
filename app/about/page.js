@@ -7,10 +7,11 @@ export default function About() {
         <section className={styles.aboutUs}>
             <div className={styles.overlay}>
                 <h1 className={styles.title}>About Us</h1>
-                <h2 className={styles.subtitle}>Welcome to The Digital Agency</h2>
+                <h2 className={styles.subtitle}>Welcome to The Sahaj Nyay</h2>
                 <p className={styles.description}>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo.
-                Praesent mattis commodo augue. Aliquam ornare hendrerit augue.
+                    At Sahaj Nyay, we are dedicated to providing personalized, high-quality legal 
+                    services with a focus on integrity, diligence, and results. Let us help you 
+                    secure the justice and peace of mind you deserve.
                 </p>
                 <div className={styles.cardContainer}>
                 <div className={styles.card}>

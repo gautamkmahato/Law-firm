@@ -12,7 +12,8 @@
   }
   
   .text {
-    font-size: 18px;
-    color: #ffffff; /* Adjust text color as needed */
+    font-size: 16px;
+    color: #ededed; /* Adjust text color as needed */
+    margin-left: 5px;
   }
   

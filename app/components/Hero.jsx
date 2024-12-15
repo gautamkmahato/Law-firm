@@ -1,19 +1,22 @@
-import styles from './Hero.module.css'
-import Link from 'next/link'
+import styles from './Hero.module.css';
+import Link from 'next/link';
+import image from '../public/assets/mylogo.png';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.parallax}>
         <div className={styles.content}>
-          <h1 className={styles.title}>Welcome to CskLegal</h1>
+          <Image src={image} width="70" alt="Logo" className={styles.image} />
+          <h1 className={styles.title}>SAHAJ NYAY</h1>
           <p className={styles.description}>
-            At CskLegal, we’re dedicated to providing personalized, high-quality legal services with a focus on integrity, diligence, and results.
-            Let us help you secure the justice and peace of mind you deserve.
+            SIMPLIFYING LAW & EMPOWERING JUSTICE
           </p>
           <Link href="/about" className={styles.button}>
             About Us
           </Link>
+          
         </div>
       </div>
       <div className={styles.wave}>
@@ -30,5 +33,5 @@ export default function Hero() {
         </svg>
       </div>
     </section>
-  )
+  );
 }

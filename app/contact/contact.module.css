@@ -1,0 +1,75 @@
+.header {
+    background-image: url('../public/assets/backimg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .breadcrumb {
+    color: #8b97a8;
+  }
+  
+  .breadcrumb a {
+    color: #8b97a8;
+    text-decoration: none;
+  }
+  
+  .breadcrumb span {
+    margin: 0 0.5rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .iconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #ffbc51;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .icon {
+    color: #563b07;
+  }
+  
+  .content h3 {
+    font-size: 1.1rem;
+    color: #2d3748;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .content p {
+    color: #718096;
+    margin: 0;
+  }
+  
