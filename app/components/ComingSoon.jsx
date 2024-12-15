@@ -6,7 +6,7 @@ export default function ComingSoon() {
       <main className={styles.main}>
         <h1 className={styles.title}>Coming Soon</h1>
         <p className={styles.description}>
-          We're working hard to bring you something amazing. Stay tuned!
+          We are working hard to bring you something amazing. Stay tuned.
         </p>
         {/* <form className={styles.form}>
           <input
