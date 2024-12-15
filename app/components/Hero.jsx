@@ -13,7 +13,7 @@ export default function Hero() {
           <p className={styles.description}>
             SIMPLIFYING LAW & EMPOWERING JUSTICE
           </p>
-          <Link href="/about" className={styles.button}>
+          <Link href="/team" className={styles.button}>
             About Us
           </Link>
           
