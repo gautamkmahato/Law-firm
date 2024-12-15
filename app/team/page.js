@@ -1,3 +1,5 @@
+/* eslint-disable no-irregular-whitespace */
+
 import Image from 'next/image'
 import styles from './team.module.css'
 import image from '../public/assets/profile.jpg'
