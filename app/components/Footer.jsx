@@ -94,21 +94,16 @@ export default function Footer() {
             <h3 className={styles.heading}>Get In Touch</h3>
             <ul className={styles.list}>
               <li className={styles.listItem}>
-                Rt. 66, Downtown, GB Road, Delhi
+                Delhi, INDIA
               </li>
               <li className={styles.listItem}>
                 <Link href="info@example.com" className={styles.link}>
-                  info@example.com
+                  subhashishk2@gmail.com
                 </Link>
               </li>
               <li className={styles.listItem}>
                 <Link href="tel:+91-800-1234-567" className={styles.link}>
-                  +91-800-1234-567
-                </Link>
-              </li>
-              <li className={styles.listItem}>
-                <Link href="tel:+91 987-654-3210" className={styles.link}>
-                  +91 987-654-3210
+                  +91-870-013-8883
                 </Link>
               </li>
             </ul>

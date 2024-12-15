@@ -17,7 +17,7 @@ export default function Contact() {
             </div>
             <div className={styles.content}>
               <h3>Phone</h3>
-              <p>+91-860-370-5017</p>
+              <p>+91-870-013-8883</p>
             </div>
           </div>
 
@@ -27,7 +27,7 @@ export default function Contact() {
             </div>
             <div className={styles.content}>
               <h3>E-Mail</h3>
-              <p>hello@example.com</p>
+              <p>subhashishk2@gmail.com</p>
             </div>
           </div>
 
