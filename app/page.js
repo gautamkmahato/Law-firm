@@ -1,4 +1,3 @@
-import Customers from "./components/Customers";
 import Hero from "./components/Hero";
 import ServiceSection from "./components/ServiceSection";
 

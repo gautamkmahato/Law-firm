@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { Phone, Mail, Building2 } from 'lucide-react'
 import styles from './contact.module.css'
 

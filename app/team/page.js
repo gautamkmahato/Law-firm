@@ -28,7 +28,7 @@ export default function BioSection() {
         <p className={styles.email}>
           <Mail className={styles.icon} />
           subhashishk2@gmail.com
-        </p>
+        </p> 
         <p className={styles.bio}>
             Subhashish Kumar&sbquo; the founder of Sahaj Nyay&sbquo; is a graduate of the National Law Institute University&sbquo;
             Bhopal&sbquo; one of India premier law schools. He is registered with the Bar Council of Delhi and the Bar 
@@ -43,7 +43,9 @@ export default function BioSection() {
             legal services while upholding the highest professional standards.
             Subhashish approach combines innovation&sbquo; precision, and a deep-rooted belief in delivering 
             results. He envisions a legal system that is transparent&sbquo; accessible&sbquo; and truly serves the people 
-            it represents. Simplifying Law&sbquo; Empowering Justice.
+            it represents. 
+            <br />
+            <span style={{fontWeight: "600"}}>Simplifying Law&sbquo; Empowering Justice.</span>
         </p>
       </div>
     </div>

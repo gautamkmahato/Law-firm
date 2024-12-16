@@ -1,19 +1,21 @@
 "use client"
 
-import Link from 'next/link'
+import Image from 'next/image';
+import logo from '../public/assets/mylogo-2.png'
+import Link from 'next/link';
 import { Facebook, Twitter, Instagram, Linkedin, Globe } from 'lucide-react'
 import styles from './Footer.module.css'
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer}> 
       <div className={styles.container}>
         <div className={styles.grid}>
           {/* Logo and Description */}
-          <div>
+          <div> 
             <div className={styles.logo}>
-              <Globe className="h-6 w-6" />
-              SAHAJ NYAY
+              <Image src={logo} alt="icon" width={24} height={24} className={styles.icon} />
+              <span style={{color: ""}}>SAHAJ NYAY</span>
             </div>
             <p className={styles.description}>
             At Sahaj Nyay, We are here to protect your rights, secure your interests, 
