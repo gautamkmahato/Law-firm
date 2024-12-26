@@ -70,7 +70,7 @@ export default function BlogPost({ params }) {
       </p>
       <h3 className={styles.contentHeader}>What Should You Do if You Get a Notice Under Section 35(3)?</h3>
       <p className={styles.content}>If you receive a notice under section 35(3), its essential to take it seriously and follow the steps below:</p>
-      <p className={styles.contentList}>
+      <p className={styles.contentList} style={{lineHeight: "40px"}}>
         <span>1. Read the Notice Carefully: The notice should specify the date, time, and place you must appear. Its essential to note these details and prepare in advance.
         </span>
         <br />
