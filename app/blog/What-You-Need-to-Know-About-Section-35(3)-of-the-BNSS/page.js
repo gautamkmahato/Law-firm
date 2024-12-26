@@ -70,7 +70,7 @@ export default function BlogPost({ params }) {
       </p>
       <h3 className={styles.contentHeader}>What Should You Do if You Get a Notice Under Section 35(3)?</h3>
       <p className={styles.content} style={{marginBottom: "8px"}}>If you receive a notice under section 35(3), its essential to take it seriously and follow the steps below:</p>
-      <p className={styles.content} style={{lineHeight: "40px"}}>
+      <p className={styles.content} style={{lineHeight: "30px"}}>
         <span>1. Read the Notice Carefully: The notice should specify the date, time, and place you must appear. Its essential to note these details and prepare in advance.
         </span>
         <br />
@@ -91,7 +91,7 @@ export default function BlogPost({ params }) {
         but it does not entirely prevent the police from taking a person into
         custody if they believe it is necessary. The police must have valid reasons, such as:
         <br />
-        <p className={styles.content} style={{lineHeight: "40px"}}>
+        <p className={styles.content} style={{lineHeight: "30px"}}>
           <span>- Evidence of tampering: If they suspect you may tamper with evidence or influence witnesses.</span>
           <br />
           <span>- Non-cooperation: If you ignore the notice or fail to appear.</span>
