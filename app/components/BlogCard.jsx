@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import styles from './BlogPostGrid.module.css'
 import profile1 from '../public/assets/profile.jpg'
-import image1 from '../public/assets/v4.PNG'
+import image1 from '../public/assets/blog-1.jpg'
 import Link from 'next/link'
 
 export default function BlogCard({id, imageSrc, title, category, authorImage, authorName, date, excerpt}) {

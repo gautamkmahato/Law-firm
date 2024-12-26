@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../[blogTitle]/blogPost.module.css'
-import profileImage from '../../public/assets/profile1.jpg'
+import profileImage from '../../public/assets/profile.jpg'
 import coverImage from '../../public/assets/banner-1.jpg'
 
 export default function BlogPost({params}) {
