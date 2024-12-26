@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from './blogPost.module.css'
+import styles from '../[blogTitle]/blogPost.module.css'
 import profileImage from '../../public/assets/profile1.jpg'
 import coverImage from '../../public/assets/v4.PNG'
 
