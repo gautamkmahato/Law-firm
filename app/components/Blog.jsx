@@ -13,53 +13,14 @@ export default function BlogPostGrid() {
             <BlogCard 
                 id="3"
                 image={image}
-                title="The Ultimate Guide To Reading"
-                category="Lifestyle"
+                title="What You Need to Know About Section 35(3) of the BNSS (Erstwhile Section 41A notice under CrPC)"
+                category="Law"
                 authorImage={profile1} 
-                authorName='Karen Doe' 
-                date='28 Aug 2022'
-                excerpt="The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,..."
+                authorName='Shubashish Kumar' 
+                date='26 Dec 2024'
+                excerpt="What You Need to Know About Section 35(3) of the BNSS (Erstwhile Section 41A notice under CrPC)"
             />
-            <BlogCard 
-                id="3"
-                image={image}
-                title="The Ultimate Guide To Reading"
-                category="Lifestyle"
-                authorImage={profile1} 
-                authorName='Karen Doe' 
-                date='28 Aug 2022'
-                excerpt="The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,..."
-            />
-            <BlogCard 
-                id="3"
-                image={image}
-                title="The Ultimate Guide To Reading"
-                category="Lifestyle"
-                authorImage={profile1} 
-                authorName='Karen Doe' 
-                date='28 Aug 2022'
-                excerpt="The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,..."
-            />
-            <BlogCard 
-                id="3"
-                image={image}
-                title="The Ultimate Guide To Reading"
-                category="Lifestyle"
-                authorImage={profile1} 
-                authorName='Karen Doe' 
-                date='28 Aug 2022'
-                excerpt="The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,..."
-            />
-            <BlogCard 
-                id="3"
-                image={image}
-                title="The Ultimate Guide To Reading"
-                category="Lifestyle"
-                authorImage={profile1} 
-                authorName='Karen Doe' 
-                date='28 Aug 2022'
-                excerpt="The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc,..."
-            />
+
             </div>
         </div>
     </>
