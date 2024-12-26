@@ -61,7 +61,7 @@ export default function BlogPost({ params }) {
         less intrusive and to prevent overcrowding in jails.
       </p>
       <h3 className={styles.contentHeader}>Key Situations for Notice Under section 35(3):</h3>
-      <p style={{lineHeight: "40px"}}>
+      <p style={{lineHeight: "30px"}}>
         <span>1. Non-Cognizable Offenses: If the offence is non-cognizable (e.g., minor offences), the police are more likely to issue a notice rather than arrest.</span>
         <br />
         <span>2. Sufficient Evidence: If there is evidence, but the police do not see an immediate need for custody, they may choose to issue a notice instead.</span>
