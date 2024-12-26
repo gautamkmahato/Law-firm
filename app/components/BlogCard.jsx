@@ -19,7 +19,7 @@ export default function BlogCard({id, imageSrc, title, category, authorImage, au
                 <span className={styles.authorName}>{authorName}</span>
                 <span className={styles.date}>{date}</span>
               </div>
-              <Link href={`/blog/What You Need to Know About Section 35(3) of the BNSS`}>
+              <Link href={`/blog/What-You-Need-to-Know-About-Section-35(3)-of-the-BNSS`}>
                 <h2 className={styles.title}>{title}</h2>
               </Link>
               <p className={styles.excerpt}>{excerpt}</p>
