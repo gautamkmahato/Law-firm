@@ -63,7 +63,9 @@ export default function BlogPost({ params }) {
       <h3 className={styles.contentHeader}>Key Situations for Notice Under section 35(3):</h3>
       <p className={styles.contentList}>
         <span>1. Non-Cognizable Offenses: If the offence is non-cognizable (e.g., minor offences), the police are more likely to issue a notice rather than arrest.</span>
+        <br />
         <span style={{paddingTop: "15px"}}>2. Sufficient Evidence: If there is evidence, but the police do not see an immediate need for custody, they may choose to issue a notice instead.</span>
+        <br />
         <span style={{paddingTop: "15px"}}>3. Investigation Requirement: Sometimes, the police need more information from the individual. A notice allows them to ask the person to appear for questioning.</span>
       </p>
       <h3 className={styles.contentHeader}>What Should You Do if You Get a Notice Under Section 35(3)?</h3>
@@ -71,11 +73,15 @@ export default function BlogPost({ params }) {
       <p className={styles.contentList}>
         <span>1. Read the Notice Carefully: The notice should specify the date, time, and place you must appear. Its essential to note these details and prepare in advance.
         </span>
+        <br />
         <span style={{paddingTop: "15px"}}>2. Understand Your Rights: Remember, receiving a notice does not mean you are under arrest or will be. It simply means the police want your cooperation in the investigation.</span>
+        <br />
         <span style={{paddingTop: "15px"}}>3. Seek Legal Advice: Consulting with a lawyer can provide clarity on the implications of the notice and ensure that you respond correctly.
         </span>
+        <br />
         <span style={{paddingTop: "15px"}}>4. Comply With the Notice: Non-compliance can lead to legal consequences, including the possibility of arrest. It’s crucial to show up as requested.
         </span>
+        <br />
         <span style={{paddingTop: "15px"}}>5. Be Respectful and Cooperative: During questioning, staying calm, cooperative, and respectful can work in your favor, as it shows you’re not obstructing the investigation.
         </span>
       </p>
