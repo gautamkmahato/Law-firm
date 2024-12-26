@@ -64,13 +64,13 @@ export default function BlogPost({ params }) {
       <p style={{lineHeight: "40px"}}>
         <span>1. Non-Cognizable Offenses: If the offence is non-cognizable (e.g., minor offences), the police are more likely to issue a notice rather than arrest.</span>
         <br />
-        <span style={{paddingTop: "15px"}}>2. Sufficient Evidence: If there is evidence, but the police do not see an immediate need for custody, they may choose to issue a notice instead.</span>
+        <span>2. Sufficient Evidence: If there is evidence, but the police do not see an immediate need for custody, they may choose to issue a notice instead.</span>
         <br />
-        <span style={{paddingTop: "15px"}}>3. Investigation Requirement: Sometimes, the police need more information from the individual. A notice allows them to ask the person to appear for questioning.</span>
+        <span>3. Investigation Requirement: Sometimes, the police need more information from the individual. A notice allows them to ask the person to appear for questioning.</span>
       </p>
       <h3 className={styles.contentHeader}>What Should You Do if You Get a Notice Under Section 35(3)?</h3>
       <p className={styles.content} style={{marginBottom: "8px"}}>If you receive a notice under section 35(3), its essential to take it seriously and follow the steps below:</p>
-      <p style={{lineHeight: "40px"}}>
+      <p className={styles.content} style={{lineHeight: "40px"}}>
         <span>1. Read the Notice Carefully: The notice should specify the date, time, and place you must appear. Its essential to note these details and prepare in advance.
         </span>
         <br />
@@ -91,7 +91,7 @@ export default function BlogPost({ params }) {
         but it does not entirely prevent the police from taking a person into
         custody if they believe it is necessary. The police must have valid reasons, such as:
         <br />
-        <p style={{lineHeight: "40px"}}>
+        <p className={styles.content} style={{lineHeight: "40px"}}>
           <span>- Evidence of tampering: If they suspect you may tamper with evidence or influence witnesses.</span>
           <br />
           <span>- Non-cooperation: If you ignore the notice or fail to appear.</span>
