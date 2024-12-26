@@ -2,16 +2,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../[blogTitle]/blogPost.module.css'
 import profileImage from '../../public/assets/profile1.jpg'
-import coverImage from '../../public/assets/v4.PNG'
+import coverImage from '../../public/assets/banner-1.jpg'
 
 export default function BlogPost({params}) {
   return (
     <article className={styles.blogPost}>
       <nav className={styles.breadcrumb}>
-        <Link href="/katen-sites">Katen Sites</Link> /{' '}
-        <Link href="/katen">Katen</Link> /{' '}
-        <Link href="/lifestyle">Lifestyle</Link> /{' '}
-        <span>How To Learn Everything About Construction</span>
+        <Link href="/katen-sites">Sahaj Nyay</Link> /{' '}
+        <Link href="/katen">Shubashish</Link> /{' '}
+        <Link href="/lifestyle">Law</Link> /{' '}
+        <span>What You Need to Know About Section 35(3) of the BNSS</span>
       </nav>
       
       <h1 className={styles.title}>What You Need to Know About Section 35(3) of the BNSS (Erstwhile Section 41A notice under CrPC)</h1>

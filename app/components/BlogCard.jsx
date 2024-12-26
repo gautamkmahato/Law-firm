@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import styles from './BlogPostGrid.module.css'
-import profile1 from '../public/assets/profile1.jpg'
+import profile1 from '../public/assets/profile.jpg'
 import image1 from '../public/assets/v4.PNG'
 import Link from 'next/link'
 

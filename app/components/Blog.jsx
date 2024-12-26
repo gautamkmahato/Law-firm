@@ -3,7 +3,7 @@
 import styles from './BlogPostGrid.module.css'
 import BlogCard from './BlogCard'
 import profile1 from '../public/assets/profile1.jpg'
-import image from '../public/assets/v4.PNG'
+import image from '../public/assets/blog-1.jpg'
 
 export default function BlogPostGrid() {
   return (
