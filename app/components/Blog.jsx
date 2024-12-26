@@ -18,7 +18,9 @@ export default function BlogPostGrid() {
                 authorImage={profile1} 
                 authorName='Shubashish Kumar' 
                 date='26 Dec 2024'
-                excerpt="What You Need to Know About Section 35(3) of the BNSS (Erstwhile Section 41A notice under CrPC)"
+                excerpt="Understanding Section 35(3) of the Bhartiya Nyaya Suraksha Sanhita (BNSS), 
+      which replaced the erstwhile Section 41A of the CrPC is essential, especially 
+      if you or someone you know ever receives a notice from the police..."
             />
 
             </div>
