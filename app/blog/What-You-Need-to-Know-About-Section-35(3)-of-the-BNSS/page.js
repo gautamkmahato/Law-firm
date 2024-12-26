@@ -61,24 +61,24 @@ export default function BlogPost({ params }) {
         less intrusive and to prevent overcrowding in jails.
       </p>
       <h3 className={styles.contentHeader}>Key Situations for Notice Under section 35(3):</h3>
-      <ul className={styles.contentList}>
-        <li>1. Non-Cognizable Offenses: If the offence is non-cognizable (e.g., minor offences), the police are more likely to issue a notice rather than arrest.</li>
-        <li style={{paddingTop: "15px"}}>2. Sufficient Evidence: If there is evidence, but the police do not see an immediate need for custody, they may choose to issue a notice instead.</li>
-        <li style={{paddingTop: "15px"}}>3. Investigation Requirement: Sometimes, the police need more information from the individual. A notice allows them to ask the person to appear for questioning.</li>
-      </ul>
+      <p className={styles.contentList}>
+        <span>1. Non-Cognizable Offenses: If the offence is non-cognizable (e.g., minor offences), the police are more likely to issue a notice rather than arrest.</span>
+        <span style={{paddingTop: "15px"}}>2. Sufficient Evidence: If there is evidence, but the police do not see an immediate need for custody, they may choose to issue a notice instead.</span>
+        <span style={{paddingTop: "15px"}}>3. Investigation Requirement: Sometimes, the police need more information from the individual. A notice allows them to ask the person to appear for questioning.</span>
+      </p>
       <h3 className={styles.contentHeader}>What Should You Do if You Get a Notice Under Section 35(3)?</h3>
       <p className={styles.content}>If you receive a notice under section 35(3), its essential to take it seriously and follow the steps below:</p>
-      <ol className={styles.contentList}>
-        <li>1. Read the Notice Carefully: The notice should specify the date, time, and place you must appear. Its essential to note these details and prepare in advance.
-        </li>
-        <li style={{paddingTop: "15px"}}>2. Understand Your Rights: Remember, receiving a notice does not mean you are under arrest or will be. It simply means the police want your cooperation in the investigation.</li>
-        <li style={{paddingTop: "15px"}}>3. Seek Legal Advice: Consulting with a lawyer can provide clarity on the implications of the notice and ensure that you respond correctly.
-        </li>
-        <li style={{paddingTop: "15px"}}>4. Comply With the Notice: Non-compliance can lead to legal consequences, including the possibility of arrest. It’s crucial to show up as requested.
-        </li>
-        <li style={{paddingTop: "15px"}}>5. Be Respectful and Cooperative: During questioning, staying calm, cooperative, and respectful can work in your favor, as it shows you’re not obstructing the investigation.
-        </li>
-      </ol>
+      <p className={styles.contentList}>
+        <span>1. Read the Notice Carefully: The notice should specify the date, time, and place you must appear. Its essential to note these details and prepare in advance.
+        </span>
+        <span style={{paddingTop: "15px"}}>2. Understand Your Rights: Remember, receiving a notice does not mean you are under arrest or will be. It simply means the police want your cooperation in the investigation.</span>
+        <span style={{paddingTop: "15px"}}>3. Seek Legal Advice: Consulting with a lawyer can provide clarity on the implications of the notice and ensure that you respond correctly.
+        </span>
+        <span style={{paddingTop: "15px"}}>4. Comply With the Notice: Non-compliance can lead to legal consequences, including the possibility of arrest. It’s crucial to show up as requested.
+        </span>
+        <span style={{paddingTop: "15px"}}>5. Be Respectful and Cooperative: During questioning, staying calm, cooperative, and respectful can work in your favor, as it shows you’re not obstructing the investigation.
+        </span>
+      </p>
       <h3 className={styles.contentHeader}>What If the Police Still Decide to Arrest?</h3>
       <div className={styles.content}>
         Section 35(3) offers some protection against arbitrary arrests,
