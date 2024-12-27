@@ -18,7 +18,7 @@ export default function WhySection() {
             />
           </div>
           <div className={styles.text}>
-            <p className={styles.date}>CskLegal</p>
+            <p className={styles.date}>Sahaj Nyay</p>
             <h3 className={styles.subtitle}>Why Choose Us</h3>
             <p className={styles.paragraph}>
               Our lawyers bring years of experience and deep knowledge across diverse legal 

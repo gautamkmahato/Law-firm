@@ -11,7 +11,7 @@ export default function Hero() {
           <Image src={image} width="70" alt="Logo" className={styles.image} />
           <h1 className={styles.title}>SAHAJ NYAY</h1>
           <p className={styles.description}>
-            SIMPLIFYING LAW & EMPOWERING JUSTICE
+            SIMPLIFYING LAW. EMPOWERING JUSTICE.
           </p>
           <Link href="/about" className={styles.button}>
             About Us

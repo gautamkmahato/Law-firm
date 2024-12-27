@@ -8,9 +8,9 @@ export default function BlogPost({ params }) {
   return (
     <article className={styles.blogPost}>
       <nav className={styles.breadcrumb}>
-        <Link href="/katen-sites">Sahaj Nyay</Link> /{' '}
-        <Link href="/katen">Shubashish</Link> /{' '}
-        <Link href="/lifestyle">Law</Link> /{' '}
+        <Link href="/">Sahaj Nyay</Link> /{' '}
+        <Link href="/team">Subashish</Link> /{' '}
+        <Link href="/">Law</Link> /{' '}
         <span>What You Need to Know About Section 35(3) of the BNSS</span>
 
       </nav>
@@ -25,7 +25,7 @@ export default function BlogPost({ params }) {
           height={40}
           className={styles.avatar}
         />
-        <span className={styles.author}>Shubashish Kumar</span>
+        <span className={styles.author}>Subashish Kumar</span>
         <span style={{ color: "red" }}>|</span>
         <span className={styles.category}>Law</span>
         <span style={{ color: "red" }}>|</span>
@@ -42,6 +42,8 @@ export default function BlogPost({ params }) {
           className={styles.mainImage}
         />
       </div>
+      
+      <div style={{textAlign: 'justify'}}>
       <h3 className={styles.contentHeader}>Police Notices and Your Rights</h3>
       <p className={styles.content}>
         Understanding Section 35(3) of the Bhartiya Nyaya Suraksha Sanhita (BNSS),
@@ -105,8 +107,9 @@ export default function BlogPost({ params }) {
         <br />
         <br />
         By understanding section 35(3), you’re better equipped to respond if you or someone close to you is ever involved in a police inquiry. Remember, compliance, respect, and legal guidance are the best ways to handle such situations.
-
       </p>
+      </div>
+
     </article>
   )
 }

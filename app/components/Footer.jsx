@@ -57,7 +57,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li className={styles.listItem}>
-                <Link href="/" className={styles.link}>
+                <Link href="/contact" className={styles.link}>
                   Contact
                 </Link>
               </li>
