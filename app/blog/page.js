@@ -1,6 +1,10 @@
 import BlogPostGrid from "../components/Blog";
 import styles from '../about/page.module.css';
 
+export const metadata = {
+    title: "Sahaj Nyay Blog Page",
+    description: "Welcome to The Articles of Sahaj Nyay Agency",
+};
 
 export default function Blog(){
     return(

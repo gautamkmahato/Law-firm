@@ -9,7 +9,7 @@ export default function BlogPost({ params }) {
     <article className={styles.blogPost}>
       <nav className={styles.breadcrumb}>
         <Link href="/">Sahaj Nyay</Link> /{' '}
-        <Link href="/team">Subashish</Link> /{' '}
+        <Link href="/team">Subhashish</Link> /{' '}
         <Link href="/">Law</Link> /{' '}
         <span>What You Need to Know About Section 35(3) of the BNSS</span>
 
@@ -25,7 +25,7 @@ export default function BlogPost({ params }) {
           height={40}
           className={styles.avatar}
         />
-        <span className={styles.author}>Subashish Kumar</span>
+        <span className={styles.author}>Subhashish Kumar</span>
         <span style={{ color: "red" }}>|</span>
         <span className={styles.category}>Law</span>
         <span style={{ color: "red" }}>|</span>

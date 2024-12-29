@@ -16,7 +16,7 @@ export default function BlogPostGrid() {
                 title="What You Need to Know About Section 35(3) of the BNSS (Erstwhile Section 41A notice under CrPC)"
                 category="Law"
                 authorImage={profile1} 
-                authorName='Subashish Kumar' 
+                authorName='Subhashish Kumar' 
                 date='26 Dec 2024'
                 excerpt="Understanding Section 35(3) of the Bhartiya Nyaya Suraksha Sanhita (BNSS), 
       which replaced the erstwhile Section 41A of the CrPC is essential, especially 

@@ -3,6 +3,11 @@ import styles from './team.module.css'
 import image from '../public/assets/profile.jpg'
 import { GraduationCap, MapPin, Mail } from 'lucide-react';
 
+export const metadata = {
+  title: "Sahaj Nyay team Page",
+  description: "Welcome to The team Page of Sahaj Nyay Agency",
+};
+
 export default function BioSection() {
   return (
     <div className={styles.bioContainer}>

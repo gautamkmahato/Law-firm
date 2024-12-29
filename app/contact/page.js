@@ -1,6 +1,11 @@
 import { Phone, Mail, Building2 } from 'lucide-react'
 import styles from './contact.module.css'
 
+export const metadata = {
+  title: "Sahaj Nyay Contact Page",
+  description: "Welcome to The Contact Page of Sahaj Nyay Agency",
+};
+
 export default function Contact() {
   return (
     <section>
