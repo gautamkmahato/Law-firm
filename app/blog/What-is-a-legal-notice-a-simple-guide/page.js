@@ -9,7 +9,13 @@ export default function LegalNotice() {
         </h1>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-4">
-          A legal notice is a formal written communication that informs a recipient about a legal issue or complaint. It is often sent by an individual, corporation, or legal representative to another party, outlining specific claims, demands, or intentions. The principal objective of a legal notice is to affirm one's legal rights and compel the recipient to take action or respond to the issues stated.
+          A legal notice is a formal written communication that informs a recipient 
+          about a legal issue or complaint. It is often sent by an individual, 
+          corporation, or legal representative to another party, 
+          outlining specific claims, demands, or intentions. 
+          The principal objective of a legal notice is to affirm one's 
+          legal rights and compel the recipient to take action or respond to 
+          the issues stated.
         </p>
 
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Objective of a Legal Notice</h2>
