@@ -49,12 +49,22 @@ export default function BlogPost({ params }) {
       <div style={{ textAlign: 'justify' }}>
         <h3 className={styles.contentHeader}>What is a Legal Notice?</h3>
         <p className={styles.content}>
-          A legal notice is a formal written communication that informs a recipient about a legal issue or complaint. It is often sent by an individual, corporation, or legal representative to another party, outlining specific claims, demands, or intentions. The principal objective of a legal notice is to affirm one's legal rights and compel the recipient to take action or respond to the issues stated.
+          A legal notice is a formal written communication that informs a recipient 
+          about a legal issue or complaint. It is often sent by an individual, 
+          corporation, or legal representative to another party, 
+          outlining specific claims, demands, or intentions. 
+          The principal objective of a legal notice is to affirm ones legal 
+          rights and compel the recipient to take action or respond to the issues stated.
         </p>
 
         <h3 className={styles.contentHeader}>Objective of a Legal Notice</h3>
         <p className={styles.content}>
-          A legal notice typically serves as the first step in the legal procedure, indicating that the sender is ready to pursue legal action if their demands are not met. It provides the recipient a final opportunity to amicably resolve the issue before advancing the situation to litigation. Issuing a legal notice establishes a formal record of the complaint, which may be essential if further legal proceedings are necessary.
+          A legal notice typically serves as the first step in the legal procedure, 
+          indicating that the sender is ready to pursue legal action if their 
+          demands are not met. It provides the recipient a final opportunity 
+          to amicably resolve the issue before advancing the situation to 
+          litigation. Issuing a legal notice establishes a formal record of the 
+          complaint, which may be essential if further legal proceedings are necessary.
         </p>
 
         <h3 className={styles.contentHeader}>Essential Elements of a Legal Notice</h3>
@@ -67,13 +77,20 @@ export default function BlogPost({ params }) {
           <li>Description of Grievance: A clear outline of the facts and grievances leading to the notice.</li>
           <li>Demand for Action: Specific actions that the recipient is required to take (e.g., payment, termination of specific activities).</li>
           <li>
-            Time Period and Consequences of Non-compliance: A time period for the receiver to address the grievance should be mentioned, along with possible legal measures if the demands are not satisfied.
+            Time Period and Consequences of Non-compliance: A time period for the 
+            receiver to address the grievance should be mentioned, along with possible 
+            legal measures if the demands are not satisfied.
           </li>
         </ul>
 
         <h3 className={styles.contentHeader}>Sending a Legal Notice</h3>
         <p className={styles.content}>
-          Legal notices can be sent through different channels, including registered post, courier, or e-mail. It's essential to keep proof of delivery, such as acknowledgment receipts, to guarantee that the recipient has received the notice. Although it is not essential to deliver a legal notice through an attorney, having legal representation can boost its effectiveness and ensure proper wording and format.
+          Legal notices can be sent through different channels, including 
+          registered post, courier, or e-mail. Its essential to keep proof of delivery, 
+          such as acknowledgment receipts, to guarantee that the recipient has 
+          received the notice. Although it is not essential to deliver a legal 
+          notice through an attorney, having legal representation can boost its 
+          effectiveness and ensure proper wording and format.
         </p>
 
         <h3 className={styles.contentHeader}>Common Situations for Sending Legal Notices</h3>
@@ -90,18 +107,41 @@ export default function BlogPost({ params }) {
 
         <h3 className={styles.contentHeader}>Which Section Governs It?</h3>
         <p className={styles.content}>
-          In India, the governing section for legal notices, particularly when addressing the government or public officials, is Section 80 of The Code of Civil Procedure, 1908 (CPC). This section states that a legal notice must be served before initiating any legal proceedings against the government or its officers. The main objective of this provision is to give competent authorities an opportunity to address the issues stated without resorting to court intervention.
+          In India, the governing section for legal notices, particularly when 
+          addressing the government or public officials, is Section 80 of The 
+          Code of Civil Procedure, 1908 (CPC). This section states that a legal 
+          notice must be served before initiating any legal proceedings against 
+          the government or its officers. The main objective of this provision is 
+          to give competent authorities an opportunity to address the issues 
+          stated without resorting to court intervention.
         </p>
 
         <h3 className={styles.contentHeader}>Value of Legal Notice and Is It Enforceable in Court?</h3>
         <p className={styles.content}>
-          The importance of a legal notice lies in its role as a formal communication that warns the recipient of the sender's grievances and intentions to take legal action. It serves as a key first step in the dispute resolution process, offering the recipient an opportunity to address the issues raised before bringing the matter to court. By clearly outlining the issues and demands, a legal notice establishes a record of purpose that might be essential in any subsequent legal procedures.
+          The importance of a legal notice lies in its role as a formal 
+          communication that warns the recipient of the senders grievances and 
+          intentions to take legal action. It serves as a key first step in 
+          the dispute resolution process, offering the recipient an opportunity 
+          to address the issues raised before bringing the matter to court. 
+          By clearly outlining the issues and demands, a legal notice establishes a
+           record of purpose that might be essential in any subsequent legal procedures.
         </p>
         <p className={styles.content}>
-          While a legal notice itself is not enforceable in court like a court order or judgment, it contains important evidentiary value. Courts consider legal notices as formal documentation of a party's attempts to resolve disputes amicably, which might impact the court's perspective of the case if it progresses to litigation. For example, failure to respond to a legal notice may be viewed unfavorably by the court, suggesting that the recipient was aware of the grievance but decided not to engage.
+          While a legal notice itself is not enforceable in court like a court 
+          order or judgment, it contains important evidentiary value. Courts
+           consider legal notices as formal documentation of a partys attempts 
+           to resolve disputes amicably, which might impact the courts
+            perspective of the case if it progresses to litigation. 
+            For example, failure to respond to a legal notice may be viewed 
+            unfavorably by the court, suggesting that the recipient was aware 
+            of the grievance but decided not to engage.
         </p>
         <p className={styles.content}>
-          Therefore, a legal notice acts as a crucial instrument for individuals and corporations to assert their rights and seek settlement before resorting to more formal legal actions. Understanding its components and purpose helps individuals manage their legal challenges efficiently.
+          Therefore, a legal notice acts as a crucial instrument for 
+          individuals and corporations to assert their rights and seek 
+          settlement before resorting to more formal legal actions. 
+          Understanding its components and purpose helps individuals manage 
+          their legal challenges efficiently.
         </p>
       </div>
     </article>
