@@ -9,13 +9,7 @@ export default function LegalNotice() {
         </h1>
 
         <p className="text-lg text-gray-700 leading-relaxed mb-4">
-          A legal notice is a formal written communication that informs a recipient 
-          about a legal issue or complaint. It is often sent by an individual, 
-          corporation, or legal representative to another party, 
-          outlining specific claims, demands, or intentions. 
-          The principal objective of a legal notice is to affirm one's 
-          legal rights and compel the recipient to take action or respond to 
-          the issues stated.
+          A legal notice is a formal written communication that informs a recipient about a legal issue or complaint. It is often sent by an individual, corporation, or legal representative to another party, outlining specific claims, demands, or intentions. The principal objective of a legal notice is to affirm one&apos;s legal rights and compel the recipient to take action or respond to the issues stated.
         </p>
 
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Objective of a Legal Notice</h2>
@@ -40,7 +34,7 @@ export default function LegalNotice() {
 
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Sending a Legal Notice</h2>
         <p className="text-gray-700 mb-4">
-          Legal notices can be sent through different channels, including registered post, courier, or e-mail. It's essential to keep proof of delivery, such as acknowledgment receipts, to guarantee that the recipient has received the notice. Although it is not essential to deliver a legal notice through an attorney, having legal representation can boost its effectiveness and ensure proper wording and format.
+          Legal notices can be sent through different channels, including registered post, courier, or e-mail. It&apos;s essential to keep proof of delivery, such as acknowledgment receipts, to guarantee that the recipient has received the notice. Although it is not essential to deliver a legal notice through an attorney, having legal representation can boost its effectiveness and ensure proper wording and format.
         </p>
 
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
@@ -63,10 +57,10 @@ export default function LegalNotice() {
           Value of Legal Notice and Is It Enforceable in Court?
         </h2>
         <p className="text-gray-700 mb-4">
-          The importance of a legal notice lies in its role as a formal communication that warns the recipient of the sender's grievances and intentions to take legal action. It serves as a key first step in the dispute resolution process, offering the recipient an opportunity to address the issues raised before bringing the matter to court. By clearly outlining the issues and demands, a legal notice establishes a record of purpose that might be essential in any subsequent legal procedures. Moreover, it encourages negotiation and settlement, potentially saving both parties time and money that would otherwise be spent on litigation.
+          The importance of a legal notice lies in its role as a formal communication that warns the recipient of the sender&apos;s grievances and intentions to take legal action. It serves as a key first step in the dispute resolution process, offering the recipient an opportunity to address the issues raised before bringing the matter to court. By clearly outlining the issues and demands, a legal notice establishes a record of purpose that might be essential in any subsequent legal procedures. Moreover, it encourages negotiation and settlement, potentially saving both parties time and money that would otherwise be spent on litigation.
         </p>
         <p className="text-gray-700 mb-4">
-          While a legal notice itself is not enforceable in court like a court order or judgment, it contains important evidentiary value. Courts consider legal notices as formal documentation of a party's attempts to resolve disputes amicably, which might impact the court's perspective of the case if it progresses to litigation.
+          While a legal notice itself is not enforceable in court like a court order or judgment, it contains important evidentiary value. Courts consider legal notices as formal documentation of a party&apos;s attempts to resolve disputes amicably, which might impact the court&apos;s perspective of the case if it progresses to litigation.
         </p>
 
         <p className="text-gray-700">
