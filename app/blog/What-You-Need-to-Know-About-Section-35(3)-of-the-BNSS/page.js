@@ -4,6 +4,11 @@ import styles from '../[blogTitle]/blogPost.module.css'
 import profileImage from '../../public/assets/profile.jpg'
 import coverImage from '../../public/assets/banner-1.jpg'
 
+export const metadata = {
+  title: "What You Need to Know About Section 35(3) of the BNSS",
+  description: "What You Need to Know About Section 35(3) of the BNSS (Erstwhile Section 41A notice under CrPC)",
+};
+
 export default function BlogPost({ params }) {
   return (
     <article className={styles.blogPost}>
