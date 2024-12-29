@@ -34,11 +34,13 @@ export default function BlogPostGrid() {
                 authorName='Subhashish Kumar' 
                 date='21 Dec 2024'
                 excerpt="A legal notice is a formal written communication that informs a recipient 
-                about a legal issue or complaint. It is often sent by an individual..."
+          about a legal issue or complaint. It is often sent by an individual, 
+          corporation, or legal representative to another party, 
+          outlining specific claims, demands, or intentions. ..."
             />
 
 <BlogCard 
-                id="2"
+                id="3"
                 image={image}
                 title="Rights of an Employee against an Employer under the new Labour Codes"
                 category="Law"
@@ -50,6 +52,21 @@ export default function BlogPostGrid() {
                 streamlining the interests of the workforce of the country, 
                 reducing red-tapism of labour inspectors and improving working 
                 conditions of workers and ease of compliance..."
+            />
+
+<BlogCard 
+                id="4"
+                image={image}
+                title="Right of an arrested person under bhartiya nyay suraksha sanhita 2023"
+                category="Law"
+                url="Right-of-an-arrested-person-under-bhartiya-nyay-suraksha-sanhita-2023"
+                authorImage={profile1} 
+                authorName='Subhashish Kumar' 
+                date='25 Dec 2024'
+                excerpt="The Constitution of India, often referred to as the supreme law of
+          the country, provides under Article 21 that “No person shall be
+          deprived of his life or personal liberty except according to a
+          procedure established by law..."
             />
 
             </div>
