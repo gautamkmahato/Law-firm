@@ -4,8 +4,8 @@ export default function robots() {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: '/private/',
+      disallow: ['/private/', '/admin/', '/dashboard/'],
     },
-    sitemap: 'https://acme.com/sitemap.xml',
+    sitemap: 'https://www.sahajnyay.in',
   }
 }
