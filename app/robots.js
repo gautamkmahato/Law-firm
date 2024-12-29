@@ -6,6 +6,6 @@ export default function robots() {
       allow: '/',
       disallow: ['/private/', '/admin/', '/dashboard/'],
     },
-    sitemap: 'https://www.sahajnyay.in',
+    sitemap: 'https://www.sahajnyay.in/sitemap.xml',
   }
 }
