@@ -6,7 +6,7 @@ import profile1 from '../public/assets/profile.jpg'
 import image1 from '../public/assets/blog-1.jpg'
 import Link from 'next/link'
 
-export default function BlogCard({id, imageSrc, title, category, authorImage, authorName, date, excerpt}) {
+export default function BlogCard({id, imageSrc, url, title, category, authorImage, authorName, date, excerpt}) {
     return (
         <div key={id} className={styles.card}>
             <div className={styles.imageWrapper}>
@@ -19,7 +19,7 @@ export default function BlogCard({id, imageSrc, title, category, authorImage, au
                 <span className={styles.authorName}>{authorName}</span>
                 <span className={styles.date}>{date}</span>
               </div>
-              <Link href={`/blog/What-You-Need-to-Know-About-Section-35(3)-of-the-BNSS`}>
+              <Link href={`/blog/${url}`}>
                 <h2 className={styles.title}>{title}</h2>
               </Link>
               <p className={styles.excerpt}>{excerpt}</p>
