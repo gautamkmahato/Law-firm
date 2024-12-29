@@ -48,28 +48,37 @@ export default function BlogPost({ params }) {
 
       <div style={{ textAlign: 'justify' }}>
         <h3 className={styles.contentHeader}>Introduction</h3>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p className={styles.content}>
-          In order to promote ease of doing business in India, streamline the interests of the workforce, reduce red-tapism of labour inspectors, and improve working conditions, the Indian government has codified 29 national labour statutes into four labour codes:
+          In order to promote ease of doing business in India, 
+          streamline the interests of the workforce, reduce red-tapism of labour 
+          inspectors, and improve working conditions, the Indian government has 
+          codified 29 national labour statutes into four labour codes:
         </p>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <ul style={{ lineHeight: '30px', marginLeft: '20px' }}>
-          <li>The Code on Wages, 2019 ("Wages Code")</li>
-          <li>The Industrial Relations Code, 2020 ("IR Code")</li>
+          <li>The Code on Wages, 2019 (Wages Code)</li>
+          <li>The Industrial Relations Code, 2020 (IR Code)</li>
           <li>The Code on Social Security, 2020 ("SS Code")</li>
           <li>The Occupational Safety, Health and Working Conditions Code, 2020 ("OSH Code")</li>
         </ul>
-
+    {/* eslint-disable-next-line react/no-unescaped-entities */}
         <h3 className={styles.contentHeader}>The Code on Wages, 2019 ("Wages Code")</h3>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p className={styles.content}>
           The Wages Code aims to ensure fair treatment in the payment of wages. Key rights include:
         </p>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <ul style={{ lineHeight: '30px', marginLeft: '20px' }}>
           <li>Equal Wages: No gender discrimination in wage payment.</li>
           <li>Minimum Wage: Entitlement to minimum wages for all employees.</li>
           <li>Bonus Payment: Employees working at least 30 days in the accounting year are entitled to an annual bonus of 8.33% of wages or Rs. 100, whichever is higher.</li>
         </ul>
-
+{/* eslint-disable-next-line react/no-unescaped-entities */}
         <h3 className={styles.contentHeader}>Rights under the Industrial Relations Code, 2020</h3>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p className={styles.content}>Employees have several rights under the IR Code, including:</p>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <ul style={{ lineHeight: '30px', marginLeft: '20px' }}>
           <li>Grievance Redressal: Disputes can be resolved within 30 days through the Grievance Redressal Committee.</li>
           <li>Protection Against Unfair Practices: Safeguards against discrimination, wrongful dismissal, and coercion.</li>
@@ -81,9 +90,11 @@ export default function BlogPost({ params }) {
           <li>Subsistence Allowance During Suspension: Workers receive 50%-75% of wages during suspension.</li>
           <li>Right to Arbitration: Disputes can be resolved through binding arbitration.</li>
         </ul>
-
+{/* eslint-disable-next-line react/no-unescaped-entities */}
         <h3 className={styles.contentHeader}>Rights under the Code on Social Security, 2020</h3>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p className={styles.content}>Employees' rights under the SS Code include:</p>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <ul style={{ lineHeight: '30px', marginLeft: '20px' }}>
           <li>Provident Fund: Retirement savings under the Employees' Provident Fund Scheme.</li>
           <li>Pension: Retirement pensions under the Employees' Pension Scheme.</li>
@@ -96,9 +107,11 @@ export default function BlogPost({ params }) {
           <li>Unorganized Workers: Welfare schemes for health care and financial protection.</li>
           <li>Disability and Death Benefits: Compensation for the employee and family.</li>
         </ul>
-
+{/* eslint-disable-next-line react/no-unescaped-entities */}
         <h3 className={styles.contentHeader}>Rights under the Occupational Safety, Health and Working Conditions Code, 2020</h3>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p className={styles.content}>Employees' safety rights under the OSH Code include:</p>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <ul style={{ lineHeight: '30px', marginLeft: '20px' }}>
           <li>Safe Workplace: Hazard-free environment to avoid injuries and diseases.</li>
           <li>Annual Health Checks: Free annual health check-ups for specific employees.</li>
