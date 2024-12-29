@@ -37,6 +37,21 @@ export default function BlogPostGrid() {
                 about a legal issue or complaint. It is often sent by an individual..."
             />
 
+<BlogCard 
+                id="2"
+                image={image}
+                title="Rights of an Employee against an Employer under the new Labour Codes"
+                category="Law"
+                url="Rights-of-an-Employee-against-an-Employer-under-the-new-Labour-Codes"
+                authorImage={profile1} 
+                authorName='Subhashish Kumar' 
+                date='24 Dec 2024'
+                excerpt="In order to promote ease of doing business in India, 
+                streamlining the interests of the workforce of the country, 
+                reducing red-tapism of labour inspectors and improving working 
+                conditions of workers and ease of compliance..."
+            />
+
             </div>
         </div>
     </>
