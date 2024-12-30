@@ -4,6 +4,9 @@ import styles from './BlogPostGrid.module.css'
 import BlogCard from './BlogCard'
 import profile1 from '../public/assets/profile1.jpg'
 import image from '../public/assets/blog-1.jpg'
+import law1 from '../public/assets/law1.jpeg'
+import law2 from '../public/assets/law2.jpeg'
+import law3 from '../public/assets/law3.jpeg'
 
 export default function BlogPostGrid() {
   return (
@@ -26,7 +29,7 @@ export default function BlogPostGrid() {
 
             <BlogCard 
                 id="2"
-                image={image}
+                image={law1}
                 title="What is a Legal Notice? A Simple Guide"
                 category="Law"
                 url="What-is-a-legal-notice-a-simple-guide"
@@ -41,7 +44,7 @@ export default function BlogPostGrid() {
 
 <BlogCard 
                 id="3"
-                image={image}
+                image={law3}
                 title="Rights of an Employee against an Employer under the new Labour Codes"
                 category="Law"
                 url="Rights-of-an-Employee-against-an-Employer-under-the-new-Labour-Codes"
@@ -56,7 +59,7 @@ export default function BlogPostGrid() {
 
 <BlogCard 
                 id="4"
-                image={image}
+                image={law2}
                 title="Right of an arrested person under bhartiya nyay suraksha sanhita 2023"
                 category="Law"
                 url="Right-of-an-arrested-person-under-bhartiya-nyay-suraksha-sanhita-2023"

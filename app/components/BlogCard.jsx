@@ -6,11 +6,11 @@ import profile1 from '../public/assets/profile.jpg'
 import image1 from '../public/assets/blog-1.jpg'
 import Link from 'next/link'
 
-export default function BlogCard({id, imageSrc, url, title, category, authorImage, authorName, date, excerpt}) {
+export default function BlogCard({id, image, url, title, category, authorImage, authorName, date, excerpt}) {
     return (
         <div key={id} className={styles.card}>
             <div className={styles.imageWrapper}>
-              <Image src={image1} alt={title} layout="fill" objectFit="cover" />
+              <Image src={image} alt={title} layout="fill" objectFit="cover" />
               <span className={styles.category}>{category}</span>
             </div>
             <div className={styles.content}>
