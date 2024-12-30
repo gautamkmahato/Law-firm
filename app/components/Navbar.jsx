@@ -63,7 +63,7 @@ export default function Component() {
             </Link>
           </li>
           <li className={styles.navLinksList}>
-            <Link href="/blog" className={styles.navLink} onClick={toggleMenu}>
+            <Link href="/articles" className={styles.navLink} onClick={toggleMenu}>
               Articles
             </Link>
           </li>
