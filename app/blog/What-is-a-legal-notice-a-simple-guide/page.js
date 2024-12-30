@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
 import profileImage from '../../public/assets/profile.jpg';
-import law1 from '../../public/law1.jpeg'
+import law1 from '../../public/assets/law1.jpeg'
 
 export const metadata = {
   title: "What is a Legal Notice? A Simple Guide",

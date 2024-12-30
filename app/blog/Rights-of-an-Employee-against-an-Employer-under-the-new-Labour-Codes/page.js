@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
 import profileImage from '../../public/assets/profile.jpg';
-import law3 from '../../public/law3.jpeg'
+import law3 from '../../public/assets/law3.jpeg'
 
 export const metadata = {
   title: "Rights of an Employee against an Employer under the New Labour Codes",
