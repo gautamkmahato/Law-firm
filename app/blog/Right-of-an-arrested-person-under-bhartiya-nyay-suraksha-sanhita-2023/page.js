@@ -2,7 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
 import profileImage from '../../public/assets/profile.jpg';
-import coverImage from '../../public/assets/banner-1.jpg';
+import law2 from '../../public/assets/law2.jpeg'
+
 
 export const metadata = {
   title: "Rights of an Arrested Person Under Bhartiya Nyaya Suraksha Sanhita, 2023",
@@ -44,7 +45,7 @@ export default function BlogPost({ params }) {
 
       <div className={styles.imageContainer}>
         <Image
-          src={coverImage}
+          src={law2}
           alt="Legal documentation image"
           width={800}
           height={400}

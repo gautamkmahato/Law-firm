@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
 import profileImage from '../../public/assets/profile.jpg';
-import coverImage from '../../public/assets/banner-1.jpg';
+import law1 from '../../public/law1.jpeg'
 
 export const metadata = {
   title: "What is a Legal Notice? A Simple Guide",
@@ -38,7 +38,7 @@ export default function BlogPost({ params }) {
 
       <div className={styles.imageContainer}>
         <Image
-          src={coverImage}
+          src={law1}
           alt="Legal documentation image"
           width={800}
           height={400}
