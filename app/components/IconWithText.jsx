@@ -9,7 +9,7 @@ export default function IconWithText({ src, alt, text }) {
     <Link href="/">
       <div className={styles.iconText}>
         <Image src={logo} alt="icon" width={24} height={24} className={styles.icon} />
-        <span className={styles.text}>SAHAJNYAY</span>
+        <span className={styles.text}>SAHAJ NYAY</span>
       </div>
     </Link>
   );
