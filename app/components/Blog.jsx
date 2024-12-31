@@ -76,7 +76,7 @@ export default function BlogPostGrid() {
 
           <BlogCard
             id="5"
-            image={law5}
+            image={law4}
             title="Importance of Mental Health Laws in India"
             category="Law"
             url="Importance-of-mental-health-laws-in-India"
@@ -91,7 +91,7 @@ export default function BlogPostGrid() {
 
           <BlogCard
             id="6"
-            image={law4}
+            image={law5}
             title="All you need to know about “Compliances for Newly Incorporated Companies”"
             category="Law"
             url="Compliances for-newly-incorporated-companies"
