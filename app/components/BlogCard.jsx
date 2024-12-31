@@ -19,7 +19,7 @@ export default function BlogCard({id, image, url, title, category, authorImage, 
                 <span className={styles.authorName}>{authorName}</span>
                 <span className={styles.date}>{date}</span>
               </div>
-              <Link href={`/blog/${url}`}>
+              <Link href={`/articles/${url}`}>
                 <h2 className={styles.title}>{title}</h2>
               </Link>
               <p className={styles.excerpt}>{excerpt}</p>
