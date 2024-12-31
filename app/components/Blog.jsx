@@ -7,6 +7,8 @@ import image from '../public/assets/blog-1.jpg'
 import law1 from '../public/assets/law1.jpeg'
 import law2 from '../public/assets/law2.jpeg'
 import law3 from '../public/assets/law3.jpeg'
+import law4 from '../public/assets/law4.jpeg'
+import law5 from '../public/assets/law5.jpeg'
 
 export default function BlogPostGrid() {
   return (
@@ -74,7 +76,7 @@ export default function BlogPostGrid() {
 
           <BlogCard
             id="5"
-            image={law2}
+            image={law5}
             title="Importance of Mental Health Laws in India"
             category="Law"
             url="Importance-of-mental-health-laws-in-India"
@@ -89,7 +91,7 @@ export default function BlogPostGrid() {
 
           <BlogCard
             id="6"
-            image={law2}
+            image={law4}
             title="All you need to know about “Compliances for Newly Incorporated Companies”"
             category="Law"
             url="Compliances for-newly-incorporated-companies"

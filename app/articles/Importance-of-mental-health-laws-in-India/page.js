@@ -2,7 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
 import profileImage from '../../public/assets/profile.jpg';
-import mentalHealthImage from '../../public/assets/mentalHealth.jpg';
+import mentalHealthImage from '../../public/assets/law5.jpeg';
+
 
 export const metadata = {
   title: "Importance of Mental Health Laws in India",

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
 import profileImage from '../../public/assets/profile.jpg';
-import complianceImage from '../../public/assets/compliance.jpg';
+import complianceImage from '../../public/assets/law4.jpeg';
 
 export const metadata = {
   title: "Compliances for Newly Incorporated Companies",
