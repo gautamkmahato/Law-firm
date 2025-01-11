@@ -9,6 +9,8 @@ import law2 from '../public/assets/law2.jpeg'
 import law3 from '../public/assets/law3.jpeg'
 import law4 from '../public/assets/law4.jpeg'
 import law5 from '../public/assets/law5.jpeg'
+import law7 from '../public/assets/law7.jpeg'
+import law8 from '../public/assets/law8.jpeg'
 
 export default function BlogPostGrid() {
   return (
@@ -102,6 +104,36 @@ export default function BlogPostGrid() {
             incorporated company, it's essential to adhere to various legal and 
             operational compliances. Here's a step-by-step guide to the most 
             critical tasks...."
+          />
+
+          <BlogCard
+            id="7"
+            image={law7}
+            title="What to Do When Your Company Is Struck Off by the ROC"
+            category="Law"
+            url="What-to-Do-When-Your-Company-Is-Struck-Off-by-the-ROC"
+            authorImage={profile1}
+            authorName='Subhashish Kumar'
+            date='9 Jan 2025'
+            excerpt="Running a company comes with a set of legal and regulatory 
+            responsibilities. One significant issue entrepreneurs may face is when 
+            their company is struck off by the Registrar of Companies (ROC). 
+            This action can have serious implications for the....."
+          />
+
+          <BlogCard
+            id="8"
+            image={law8}
+            title="Encounter Over Suspicion and Not Thorough Investigation"
+            category="Law"
+            url="Encounter-over-suspicion-and-not-thorough-investigation"
+            authorImage={profile1}
+            authorName='Subhashish Kumar'
+            date='11 Jan 2025'
+            excerpt="Encounters over suspicion can be considered as extrajudicial 
+            killings. Encounter cases are not new in India, but many raise 
+            questions about the police's actions. Often termed 
+            'extra-judicial killings' fake encounters involve..."
           />
 
         </div>
