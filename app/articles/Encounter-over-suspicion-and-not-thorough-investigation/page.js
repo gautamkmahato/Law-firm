@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
 import profileImage from '../../public/assets/profile.jpg';
-import lawImage from '../../public/assets/law5.jpeg';
+import lawImage from '../../public/assets/law8.jpeg';
 
 export const metadata = {
   title: "Encounter Over Suspicion and Not Thorough Investigation",

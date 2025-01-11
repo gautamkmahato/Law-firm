@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
 import profileImage from '../../public/assets/profile.jpg';
-import complianceImage from '../../public/assets/law5.jpeg';
+import complianceImage from '../../public/assets/law7.jpeg';
 
 export const metadata = {
   title: "What to Do When Your Company Is Struck Off by the ROC",
