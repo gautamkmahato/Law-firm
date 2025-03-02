@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './team.module.css'
-import image from '../public/assets/profile.jpg'
+import image1 from '../public/assets/profile2.jpeg'
+import image2 from '../public/assets/profile3.jpeg'
 import { GraduationCap, MapPin, Mail } from 'lucide-react';
 
 export const metadata = {
@@ -14,7 +15,7 @@ export default function BioSection() {
     <div className={styles.bioContainer}>
       <div className={styles.imageContainer}>
         <Image
-          src={image} // Replace with your image path
+          src={image1} // Replace with your image path
           alt="Profile Picture"
           width={300}
           height={300}
@@ -59,7 +60,7 @@ export default function BioSection() {
     <div className={styles.bioContainer}>
       <div className={styles.imageContainer}>
         <Image
-          src={image} // Replace with your image path
+          src={image2} // Replace with your image path
           alt="Profile Picture"
           width={300}
           height={300}
@@ -67,18 +68,18 @@ export default function BioSection() {
         />
       </div>
       <div className={styles.infoContainer}>
-        <h1 className={styles.name}>Subhashish Kumar</h1>
-        <p className={styles.education}>
+        <h1 className={styles.name}>Kirti Sharma</h1>
+        {/* <p className={styles.education}>
           <GraduationCap className={styles.icon} />
             BALLB (Hons.) National Law Institute University
-        </p>
+        </p> */}
         <p className={styles.location}>
           <MapPin className={styles.icon} />
           Delhi&sbquo; INDIA
         </p>
         <p className={styles.email}>
           <Mail className={styles.icon} />
-          subhashishk2@gmail.com
+          advkirtisharma183695@gmail.com
         </p> 
         <p className={styles.bio} style={{textAlign: "justify"}}>
         Kirti Sharma, a partner at Sahaj Nyay, is a distinguished legal professional whose journey is marked by academic excellence and a steadfast commitment to justice. She earned her BA LLB from IP University, Delhi, where she consistently excelled in her studies, and went on to complete her LLM from Amity University, Noida, graduating as a gold medalist.
