@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './team.module.css'
 import image1 from '../public/assets/profile2.jpeg'
 import image2 from '../public/assets/profile3.jpeg'
-import image3 from '../public/assets/profile4.jpeg' // Add image path for Anamika Mishra
+import image3 from '../public/assets/anamika2.jpeg' // Add image path for Anamika Mishra
 import { GraduationCap, MapPin, Mail } from 'lucide-react';
 
 export const metadata = {
