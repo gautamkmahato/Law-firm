@@ -13,10 +13,11 @@ export const metadata = {
 export default function BioSection() {
   return (
     <>
+      {/* Subhashish Kumar */}
       <div className={styles.bioContainer}>
         <div className={styles.imageContainer}>
           <Image
-            src={image1} // Replace with your image path
+            src={image1}
             alt="Profile Picture"
             width={300}
             height={300}
@@ -58,45 +59,11 @@ export default function BioSection() {
         </div>
       </div>
 
+      {/* Anamika Mishra */}
       <div className={styles.bioContainer}>
         <div className={styles.imageContainer}>
           <Image
-            src={image2} // Replace with your image path
-            alt="Profile Picture"
-            width={300}
-            height={300}
-            className={styles.image}
-          />
-        </div>
-        <div className={styles.infoContainer}>
-          <h1 className={styles.name}>Kirti Sharma</h1>
-          <p className={styles.location}>
-            <MapPin className={styles.icon} />
-            Delhi, INDIA
-          </p>
-          <p className={styles.email}>
-            <Mail className={styles.icon} />
-            advkirtisharma183695@gmail.com
-          </p> 
-          <p className={styles.bio} style={{textAlign: "justify"}}>
-            Kirti Sharma, a partner at Sahaj Nyay, is a distinguished legal professional whose journey is marked by academic excellence and a steadfast commitment to justice. She earned her BA LLB from IP University, Delhi, where she consistently excelled in her studies, and went on to complete her LLM from Amity University, Noida, graduating as a gold medalist.
-
-            Beyond her academic achievements, Kirti has demonstrated remarkable discipline and resilience, shaped by her upbringing in a family of army and service personnel. Her experiences as a national-level football player, representing the state of Delhi, instilled in her the values of teamwork, perseverance, and strategic thinking — qualities she seamlessly integrates into her legal practice.
-
-            Kirti’s approach to law is rooted in empathy, sincerity, and a deep desire to provide relief-oriented solutions. She embodies Sahaj Nyay’s vision of simplifying law and empowering justice, bringing a principled and socially conscious perspective to every case she handles. Her unwavering dedication to doing the right work for society, combined with her sharp legal insight, makes her an invaluable pillar of the firm.
-
-            Together with her partners, Kirti strives to create a legal environment that is accessible, client-centric, and driven by integrity, ensuring that justice is not just a concept but a reality for all.
-            <br />
-            <span style={{fontWeight: "600"}}>Simplifying Law, Empowering Justice.</span>
-          </p>    
-        </div>
-      </div>
-
-      {/* Add Bio Section for Anamika Mishra */}
-      <div className={styles.bioContainer}>
-        <div className={styles.imageContainer}>
-          <Image
-            src={image3} // Replace with the image path of Anamika Mishra
+            src={image3} 
             alt="Anamika Mishra"
             width={300}
             height={300}
@@ -131,6 +98,40 @@ export default function BioSection() {
         </div>
       </div>
 
+      {/* Kirti Sharma */}
+      <div className={styles.bioContainer}>
+        <div className={styles.imageContainer}>
+          <Image
+            src={image2}
+            alt="Profile Picture"
+            width={300}
+            height={300}
+            className={styles.image}
+          />
+        </div>
+        <div className={styles.infoContainer}>
+          <h1 className={styles.name}>Kirti Sharma</h1>
+          <p className={styles.location}>
+            <MapPin className={styles.icon} />
+            Delhi, INDIA
+          </p>
+          <p className={styles.email}>
+            <Mail className={styles.icon} />
+            advkirtisharma183695@gmail.com
+          </p> 
+          <p className={styles.bio} style={{textAlign: "justify"}}>
+            Kirti Sharma, a partner at Sahaj Nyay, is a distinguished legal professional whose journey is marked by academic excellence and a steadfast commitment to justice. She earned her BA LLB from IP University, Delhi, where she consistently excelled in her studies, and went on to complete her LLM from Amity University, Noida, graduating as a gold medalist.
+
+            Beyond her academic achievements, Kirti has demonstrated remarkable discipline and resilience, shaped by her upbringing in a family of army and service personnel. Her experiences as a national-level football player, representing the state of Delhi, instilled in her the values of teamwork, perseverance, and strategic thinking — qualities she seamlessly integrates into her legal practice.
+
+            Kirti’s approach to law is rooted in empathy, sincerity, and a deep desire to provide relief-oriented solutions. She embodies Sahaj Nyay’s vision of simplifying law and empowering justice, bringing a principled and socially conscious perspective to every case she handles. Her unwavering dedication to doing the right work for society, combined with her sharp legal insight, makes her an invaluable pillar of the firm.
+
+            Together with her partners, Kirti strives to create a legal environment that is accessible, client-centric, and driven by integrity, ensuring that justice is not just a concept but a reality for all.
+            <br />
+            <span style={{fontWeight: "600"}}>Simplifying Law, Empowering Justice.</span>
+          </p>    
+        </div>
+      </div>
     </>
   );
 }
