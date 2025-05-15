@@ -28,7 +28,7 @@ export default function BioSection() {
           <h1 className={styles.name}>Anamika Mishra</h1>
           <p className={styles.education}>
             <GraduationCap className={styles.icon} />
-            LLB (National Law University, Delhi) | LLM in Comparative Constitutional Law (Central European University, Vienna)
+            BALLB (Hons.) National Law University, Delhi | LLM in Comparative Constitutional Law (Central European University, Vienna)
           </p>
           <p className={styles.location}>
             <MapPin className={styles.icon} />
