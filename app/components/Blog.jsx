@@ -14,7 +14,7 @@ import law8 from '../public/assets/law8.jpeg'
 import law9 from '../public/assets/child.jpeg'
 import law10 from '../public/assets/extra.jpeg'
 import law11 from '../public/assets/law-11.jpeg' // New image for urgency clause article
-import userMock from '../public/assets/user-mock.png' // New image for urgency clause article
+import userMock from '../public/assets/mock.jpg' // New image for urgency clause article
 
 export default function BlogPostGrid() {
   return (
