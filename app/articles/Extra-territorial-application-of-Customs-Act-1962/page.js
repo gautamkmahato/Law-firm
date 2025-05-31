@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
 import profileImage from '../../public/assets/profile.jpg';
-import customsImage from '../../public/assets/customs-jurisdiction.jpg'; // Replace with actual image path
+import customsImage from '../../public/assets/extra.jpeg'; // Replace with actual image path
 
 export const metadata = {
   title: "Extra-Territorial Application of Customs Act, 1962",
