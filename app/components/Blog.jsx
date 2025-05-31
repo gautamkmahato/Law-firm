@@ -11,8 +11,9 @@ import law4 from '../public/assets/law4.jpeg'
 import law5 from '../public/assets/law5.jpeg'
 import law7 from '../public/assets/law7.jpeg'
 import law8 from '../public/assets/law8.jpeg'
-import law9 from '../public/assets/child.jpeg' // New image placeholder for child rights session
-import law10 from '../public/assets/extra.jpeg' // New image placeholder for customs article
+import law9 from '../public/assets/child.jpeg'
+import law10 from '../public/assets/extra.jpeg'
+import law11 from '../public/assets/law-11.jpeg' // New image for urgency clause article
 
 export default function BlogPostGrid() {
   return (
@@ -25,8 +26,8 @@ export default function BlogPostGrid() {
           category="Law"
           url="What-You-Need-to-Know-About-Section-35(3)-of-the-BNSS"
           authorImage={profile1}
-          authorName='Subhashish Kumar'
-          date='20 Dec 2024'
+          authorName="Subhashish Kumar"
+          date="20 Dec 2024"
           excerpt="Understanding Section 35(3) of the Bhartiya Nyaya Suraksha Sanhita (BNSS), which replaced the erstwhile Section 41A of the CrPC is essential..."
         />
 
@@ -37,8 +38,8 @@ export default function BlogPostGrid() {
           category="Law"
           url="What-is-a-legal-notice-a-simple-guide"
           authorImage={profile1}
-          authorName='Subhashish Kumar'
-          date='21 Dec 2024'
+          authorName="Subhashish Kumar"
+          date="21 Dec 2024"
           excerpt="A legal notice is a formal written communication that informs a recipient about a legal issue or complaint..."
         />
 
@@ -49,8 +50,8 @@ export default function BlogPostGrid() {
           category="Law"
           url="Rights-of-an-Employee-against-an-Employer-under-the-new-Labour-Codes"
           authorImage={profile1}
-          authorName='Subhashish Kumar'
-          date='24 Dec 2024'
+          authorName="Subhashish Kumar"
+          date="24 Dec 2024"
           excerpt="In order to promote ease of doing business in India, streamline workforce interests, and improve working conditions..."
         />
 
@@ -61,8 +62,8 @@ export default function BlogPostGrid() {
           category="Law"
           url="Right-of-an-arrested-person-under-bhartiya-nyay-suraksha-sanhita-2023"
           authorImage={profile1}
-          authorName='Subhashish Kumar'
-          date='25 Dec 2024'
+          authorName="Subhashish Kumar"
+          date="25 Dec 2024"
           excerpt="The Constitution provides that no person shall be deprived of life or liberty except by law. Here's what that means for arrested persons..."
         />
 
@@ -73,8 +74,8 @@ export default function BlogPostGrid() {
           category="Law"
           url="Importance-of-mental-health-laws-in-India"
           authorImage={profile1}
-          authorName='Subhashish Kumar'
-          date='27 Dec 2024'
+          authorName="Subhashish Kumar"
+          date="27 Dec 2024"
           excerpt="Mental health issues have often been stigmatized. The Mental Health Care Act, 2017, is a key step toward legal protection..."
         />
 
@@ -85,8 +86,8 @@ export default function BlogPostGrid() {
           category="Law"
           url="Compliances-for-newly-incorporated-companies"
           authorImage={profile1}
-          authorName='Subhashish Kumar'
-          date='31 Dec 2024'
+          authorName="Subhashish Kumar"
+          date="31 Dec 2024"
           excerpt="To ensure smooth functioning of a new company, it's vital to follow legal and operational compliances. Here's a guide..."
         />
 
@@ -97,8 +98,8 @@ export default function BlogPostGrid() {
           category="Law"
           url="What-to-Do-When-Your-Company-Is-Struck-Off-by-the-ROC"
           authorImage={profile1}
-          authorName='Subhashish Kumar'
-          date='9 Jan 2025'
+          authorName="Subhashish Kumar"
+          date="9 Jan 2025"
           excerpt="A company being struck off by the Registrar of Companies can have serious legal consequences. Learn your options..."
         />
 
@@ -109,8 +110,8 @@ export default function BlogPostGrid() {
           category="Law"
           url="Encounter-over-suspicion-and-not-thorough-investigation"
           authorImage={profile1}
-          authorName='Subhashish Kumar'
-          date='11 Jan 2025'
+          authorName="Subhashish Kumar"
+          date="11 Jan 2025"
           excerpt="Encounters over suspicion are often extra-judicial killings. This article examines legal and constitutional concerns..."
         />
 
@@ -121,8 +122,8 @@ export default function BlogPostGrid() {
           category="Law"
           url="Empowering-the-Youngest-Voices-Subhashish-Kumar-Co-Founder-Sahaj-Nyay-Leads-Legal-Awareness-Session-on-Child-Rights"
           authorImage={profile1}
-          authorName='Subhashish Kumar'
-          date='20 May 2025'
+          authorName="Subhashish Kumar"
+          date="20 May 2025"
           excerpt="Held in Gram Sorkha, Noida, this session focused on child rights under the POCSO Act, empowering children to protect themselves..."
         />
 
@@ -133,9 +134,21 @@ export default function BlogPostGrid() {
           category="Law"
           url="Extra-territorial-application-of-Customs-Act-1962"
           authorImage={profile1}
-          authorName='Anamika Mishra'
-          date='18 Feb 2023'
+          authorName="Anamika Mishra"
+          date="22 May 2025"
           excerpt="The 2018 amendment to Section 1(2) of the Customs Act introduces extra-territorial jurisdiction. Here's a deep dive into its scope..."
+        />
+
+        <BlogCard
+          id="11"
+          image={law11}
+          title="Invocation of Urgency Clause in Land Acquisition – Hazy Contours of Judicial Review"
+          category="Law"
+          url="invocation-of-urgency-clause-in-land-acquisition"
+          authorImage={profile1}
+          authorName="Anamika Mishra"
+          date="24 May 2025"
+          excerpt="A comparative look at two Supreme Court rulings on the urgency clause under the Land Acquisition Act, highlighting judicial inconsistencies..."
         />
       </div>
     </div>
