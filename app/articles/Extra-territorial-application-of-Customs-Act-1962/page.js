@@ -34,7 +34,7 @@ export default function BlogPost({ params }) {
         <span style={{ color: 'red' }}>|</span>
         <span className={styles.category}>Tax & Trade</span>
         <span style={{ color: 'red' }}>|</span>
-        <time className={styles.date}>February 18, 2023</time>
+        <time className={styles.date}>22 May 2025</time>
       </div>
 
       <div className={styles.imageContainer}>
