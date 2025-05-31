@@ -2,7 +2,7 @@
 
 import styles from './BlogPostGrid.module.css'
 import BlogCard from './BlogCard'
-import profile1 from '../public/assets/profile1.jpg'
+import profile1 from '../public/assets/profile.jpg'
 import image from '../public/assets/blog-1.jpg'
 import law1 from '../public/assets/law1.jpeg'
 import law2 from '../public/assets/law2.jpeg'
