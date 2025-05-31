@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../[blogTitle]/blogPost.module.css';
-import profileImage from '../../public/assets/profile.jpg';
+import profileImage from '../../public/assets/mock.jpg';
 import urgencyImage from '../../public/assets/law-11.jpeg'; // Replace with correct image path
 
 export const metadata = {
