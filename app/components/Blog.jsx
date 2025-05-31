@@ -14,6 +14,7 @@ import law8 from '../public/assets/law8.jpeg'
 import law9 from '../public/assets/child.jpeg'
 import law10 from '../public/assets/extra.jpeg'
 import law11 from '../public/assets/law-11.jpeg' // New image for urgency clause article
+import userMock from '../public/assets/user-mock.png' // New image for urgency clause article
 
 export default function BlogPostGrid() {
   return (
@@ -133,7 +134,7 @@ export default function BlogPostGrid() {
           title="Extra-Territorial Application of Customs Act, 1962"
           category="Law"
           url="Extra-territorial-application-of-Customs-Act-1962"
-          authorImage={profile1}
+          authorImage={userMock}
           authorName="Anamika Mishra"
           date="22 May 2025"
           excerpt="The 2018 amendment to Section 1(2) of the Customs Act introduces extra-territorial jurisdiction. Here's a deep dive into its scope..."
@@ -145,7 +146,7 @@ export default function BlogPostGrid() {
           title="Invocation of Urgency Clause in Land Acquisition – Hazy Contours of Judicial Review"
           category="Law"
           url="invocation-of-urgency-clause-in-land-acquisition"
-          authorImage={profile1}
+          authorImage={userMock}
           authorName="Anamika Mishra"
           date="24 May 2025"
           excerpt="A comparative look at two Supreme Court rulings on the urgency clause under the Land Acquisition Act, highlighting judicial inconsistencies..."
