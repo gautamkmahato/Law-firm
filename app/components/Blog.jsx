@@ -11,8 +11,8 @@ import law4 from '../public/assets/law4.jpeg'
 import law5 from '../public/assets/law5.jpeg'
 import law7 from '../public/assets/law7.jpeg'
 import law8 from '../public/assets/law8.jpeg'
-import law9 from '../public/assets/law9.jpeg' // New image placeholder for child rights session
-import law10 from '../public/assets/law10.jpeg' // New image placeholder for customs article
+import law9 from '../public/assets/child.jpeg' // New image placeholder for child rights session
+import law10 from '../public/assets/child.jpeg' // New image placeholder for customs article
 
 export default function BlogPostGrid() {
   return (
