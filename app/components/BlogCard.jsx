@@ -15,7 +15,7 @@ export default function BlogCard({id, image, url, title, category, authorImage, 
             </div>
             <div className={styles.content}>
               <div className={styles.authorInfo}>
-                <Image src={profile1} alt={authorName} width={40} height={40} className={styles.avatar} />
+                <Image src={authorImage} alt={authorName} width={40} height={40} className={styles.avatar} />
                 <span className={styles.authorName}>{authorName}</span>
                 <span className={styles.date}>{date}</span>
               </div>
